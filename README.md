@@ -1,11 +1,11 @@
 Predicting Human Gaze Beyond Pixels
 ===================================
-Matlab tools for "Predicting human gaze beyond pixels," Journal of Vision, 2014
+Matlab tools for "Predicting human gaze beyond pixels," Journal of Vision, 2014   
 Juan Xu, Ming Jiang, Shuo Wang, Mohan Kankanhalli, Qi Zhao
  
 Copyright (c) 2014 NUS VIP - Visual Information Processing Lab
 
-Distributed under the MIT License
+Distributed under the MIT License.
 See LICENSE file in the distribution folder.
 
 Contents
@@ -42,6 +42,6 @@ Open Matlab and run demo.m to compute the fixation maps, the feature maps, to le
 Contacts
 ================
 
-Send feedback, suggestions and questions to
-Juan Xu at <jxu@nus.edu.sg>
+Send feedback, suggestions and questions to:
+Juan Xu at <jxu@nus.edu.sg>   
 Ming Jiang at <mjiang@nus.edu.sg>
