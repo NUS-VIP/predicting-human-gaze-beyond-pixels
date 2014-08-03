@@ -44,6 +44,8 @@ params.eye.gaussian = fspecial('gaussian', [winSize winSize], params.eye.radius)
 
 winSize = ceil(params.out.sigma * 7);
 params.out.gaussian = fspecial('gaussian', [winSize winSize], params.out.sigma);
-params.stimuli = stimuliFiles(params);
+
+files = dir([params.path.stimuli, '/*', params.ext]);
+params.stimuli = {files.name};
 params.nStimuli = length(params.stimuli);
 end
