@@ -42,6 +42,6 @@ Open Matlab and run demo.m to compute the fixation maps, the feature maps, to le
 Contacts
 ================
 
-Send feedback, suggestions and questions to:
+Send feedback, suggestions and questions to:   
 Juan Xu at <jxu@nus.edu.sg>   
 Ming Jiang at <mjiang@nus.edu.sg>
