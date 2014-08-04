@@ -19,7 +19,7 @@ negPtsPerImg=60; % number of negative samples
 nPts = posPtsPerImg + negPtsPerImg;
 
 p=20; % pos samples are taken from the top p percent salient pixels of the fixation map
-q=60; % neg samples are taken from below the top q percent
+q=40; % neg samples are taken from below the top q percent
 c=1; % parameter for the liblinear machine learning
 
 svm_params = '-s 2 -c 1 -B -1';
