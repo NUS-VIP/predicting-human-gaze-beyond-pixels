@@ -11,7 +11,7 @@ See LICENSE file in the distribution folder.
 Contents
 ================
 
-This code package includes the following files:
+## Source Code
 
 - demo.m:                             demonstrates the usage of this package. 
 - src/common/config.m                 defines the configuration parameters.
@@ -28,11 +28,16 @@ This code package includes the following files:
 - src/model/trainModel.m              trains the saliency model.
 - src/model/computeSaliencyMaps.m     computes the predicted saliency maps.
 
-This data package includes the following files:
+## Data
 
 - data/stimuli/*.jpg                  stimuli files
 - data/eye/fixations.mat              eye-tracking data (fixation points and durations)
 - data/attrs.mat                      manually labelled object masks and attributes
+
+## Dependencies
+
+- lib/gbvs 							  [Graph-Based Visual Saliency] <http://www.vision.caltech.edu/~harel/share/gbvs.php>
+- lib/liblinear 				      [LIBLINEAR] <http://www.csie.ntu.edu.tw/~cjlin/liblinear/>
 
 Getting Started
 ================

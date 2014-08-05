@@ -15,12 +15,12 @@ tic;
 addpath(genpath('src'));
 
 % initialize GBVS
-cd gbvs
+cd lib/gbvs
 gbvs_install
 cd ..
 
 % initialize liblinear
-addpath('liblinear');
+addpath('lib/liblinear');
 cd liblinear
 make
 cd ..
