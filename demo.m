@@ -17,13 +17,13 @@ addpath(genpath('src'));
 % initialize GBVS
 cd lib/gbvs
 gbvs_install
-cd ..
+cd ../..
 
 % initialize liblinear
 addpath('lib/liblinear');
-cd liblinear
+cd lib/liblinear
 make
-cd ..
+cd ../..
 
 toc;
 
