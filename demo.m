@@ -10,6 +10,8 @@
 % See LICENSE file in the distribution folder.
 % -----------------------------------------------------------------------
 
+fprintf('Setting up the environment.\n');
+tic;
 addpath(genpath('src'));
 
 % initialize GBVS
@@ -22,6 +24,8 @@ addpath('liblinear');
 cd liblinear
 make
 cd ..
+
+toc;
 
 % load parameters
 p = config;

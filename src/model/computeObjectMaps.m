@@ -12,7 +12,7 @@ function computeObjectMaps(params)
 % -----------------------------------------------------------------------
 
 load(fullfile(params.path.data, 'attrs.mat'));
-load(fullfile(params.path.data, 'objFeat.mat'));
+load(fullfile(params.path.data, 'objFeats.mat'));
 
 features = {'size', 'complexity', 'convexity', 'solidity', 'eccentricity'};
 n = length(features);
@@ -45,7 +45,7 @@ for i = 1 : params.nStimuli
         im = exp(-((x - center(1)) .^ 2) / (2 * sigma_x ^ 2) - ((y - center(2)) .^ 2) / (2 * sigma_y ^ 2));
 
         for k = 1 : n
-            v = objFeat(id, k);
+            v = objFeats(id, k);
             if v ~= 0 && ~isnan(center(2)) && ~isnan(center(1))
                 maps(:,:,k) = maps(:,:,k) + im*v;
             end

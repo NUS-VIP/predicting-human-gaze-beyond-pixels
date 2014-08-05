@@ -60,4 +60,4 @@ for i = 1 : params.nStimuli
 end
 toc;
 
-save(fullfile(params.path.data, 'objFeat.mat'), 'objFeat');
+save(fullfile(params.path.data, 'objFeats.mat'), 'objFeats');
