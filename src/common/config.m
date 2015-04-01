@@ -16,10 +16,10 @@ params.root = '.';
 params.path.data = [params.root, '/data'];
 params.path.stimuli = [params.path.data, '/stimuli'];
 params.path.maps.fixation = [params.path.data, '/fixation_maps'];
+params.path.maps.mouse = [params.path.data, '/mouse_maps'];
 
 params.path.labels = [params.path.data, '/labels'];
 params.path.eye = [params.path.data, '/eye'];
-params.path.raw = [params.path.data, '/eye/raw'];
 
 params.path.maps.feature = [params.path.data, '/feature_maps'];
 params.path.maps.saliency = [params.path.data, '/saliency_maps'];

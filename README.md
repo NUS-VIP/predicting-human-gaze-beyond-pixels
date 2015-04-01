@@ -17,6 +17,7 @@ Contents
 - src/common/config.m                 defines the configuration parameters.
 - src/common/normalise.m              normalises a saliency map.
 - src/dataset/computeFixationMaps.m   generates the human fixation maps.
+- src/dataset/computeMouseMaps.m      generates the mouse-tracking maps.
 - src/dataset/showEyeData.m           visualises the scanpaths of a given subject.
 - src/metric/computeInterSubjectAUC.m computes the ideal (inter-subject) AUC scores.
 - src/metric/normalizedAUC.m          computes the normalized AUC scores.
@@ -32,12 +33,14 @@ Contents
 
 - data/stimuli/*.jpg                  stimuli files
 - data/eye/fixations.mat              eye-tracking data (fixation points and durations)
+- data/mouse_amt/*.mat                mouse-tracking data (sample points collected with crowdsourcing)
+- data/mouse_lab/*.mat                mouse-tracking data (sample points collacted in lab)
 - data/attrs.mat                      manually labelled object masks and attributes
 
 ## Dependencies
 
-- lib/gbvs 							  Graph-Based Visual Saliency http://www.vision.caltech.edu/~harel/share/gbvs.php
-- lib/liblinear 				      LIBLINEAR http://www.csie.ntu.edu.tw/~cjlin/liblinear/
+- lib/gbvs                            Graph-Based Visual Saliency http://www.vision.caltech.edu/~harel/share/gbvs.php
+- lib/liblinear                       LIBLINEAR http://www.csie.ntu.edu.tw/~cjlin/liblinear/
 
 Getting Started
 ================
